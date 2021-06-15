@@ -1,0 +1,24 @@
+GET http://localhost:3000/usuarios
+
+###
+GET http://localhost:3000/usuarios?username=pancho
+
+###
+
+POST   http://localhost:3000/login?username=pancho&password=123
+
+###
+
+POST    http://localhost:3000/login/username=vendedor&password=123
+
+
+###
+POST   http://localhost:3000/login?username=pancho&password=123
+
+
+###
+
+POST http://localhost:3000/usuarios?username=pancho&password=123
+
+###
+POST http://localhost:3000/login{username:pancho, password:123}
