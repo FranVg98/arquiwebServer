@@ -21,7 +21,7 @@ server.post('/login', (req, res) => {
     if( username == usuario.username && password == usuario.password ){
       findUser = true;
       const token = jwt.sign(usuario, keyJWT , {
-        expiresIn: 5
+        expiresIn: 1400
       });
       res.jsonp({token:token})
     }
