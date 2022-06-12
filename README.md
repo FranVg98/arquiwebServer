@@ -2,8 +2,12 @@
 
 Instalar dependencias
 
-    npm install
+    npm install dada
 
 Ejecutar el servidor
 
     node server.js
+
+comando nuevo
+
+    awdawd
